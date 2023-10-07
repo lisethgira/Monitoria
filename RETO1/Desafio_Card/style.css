@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsla(178, 100%, 50%, 0.5);
+    --Verydarkbluemain: hsl(217, 54%, 11%);
+    --VerydarkblueCard: hsl(216, 50%, 16%);
+    --Verydarkblueline: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Verydarkbluemain);
+    font-size: 18px;
+}
+
+.main-container{
+    width: 300px;
+    height: 546px;
+    margin: 60px auto;
+    border-radius: 16px;
+    padding: 26px;
+    background-color: var(--VerydarkblueCard);
+}
+
+.image{
+    margin:0 auto;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 26px;
+    overflow: hidden;
+}
+
+.eye-image{
+    opacity:0;
+    background-color: var(--Cyan);
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.eye-image:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+h1{
+    color: var(--White);
+    font-size: 1.3em;
+    margin-bottom: 18px;
+}
+
+.Description{
+    font-size: 0.9em;
+    color: var(--Softblue);
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.value{
+    color: var(--Cyan);
+}
+
+.time{
+    color: var(--Softblue);
+}
+
+.details-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    border-top: 1px solid var(--Softblue);
+    margin-bottom: 15px;
+}
+
+.creator-container{
+    display:flex;
+    align-items: center;
+}
+
+.photo{
+    background-image: url(images/image-avatar.png);
+    width: 36px;
+    height: 36px;
+    background-size: cover;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+
+.creator{
+    color: var(--Softblue);
+    font-size: 0.85em;
+    margin-left: 15px;
+}
+
+.creator span{
+    color: var(--White);
+    
+}
+
+.title:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+
+}
+
+.attribution { 
+    
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (min-width: 900px){
+    .main-container{
+        width: 354px;
+        height: 600px;
+    }
+    .image{
+        width: 300px;
+        height: 300px;
+    }
+    .Description{
+        font-size: 1em;
+    }
+}
+
