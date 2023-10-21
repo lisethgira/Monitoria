@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.general-container{
+    border: 1px solid white;
+    -webkit-box-shadow: -2px 1px 14px 5px rgba(207, 207, 207, 0.76);
+    -moz-box-shadow: -2px 1px 14px 5px rgba(207, 207, 207, 0.76);
+    box-shadow: -2px 1px 14px 5px rgba(207, 207, 207, 0.76);
+    border-radius: 3px;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 90px auto;
+    padding: 35px;
+}
+
+.trello{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 26px;
+}
+
+.p-sign-in{
+    margin: auto;
+    font-weight:500;
+    margin-bottom: 20px;
+    color: #172B4D;
+}
+
+.token-warning{
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: #f8f7df;
+    padding: 10px;
+    margin: 5px auto;
+    color: rgb(100, 100, 100);
+}
+
+.bi-exclamation-triangle-fill{
+    margin: auto;
+    color: #F8981D;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input #username{
+    background-color: #FAFBFC;
+    padding: 10px;
+    border: 2px #DFE1E6 solid;
+    border-radius: 3px;
+    margin: 10px 0
+}
+
+.continue-button{
+    background-color: #0052CC;
+    color: white;
+    font-weight: 500;
+    padding: 12px;
+    border: .5px #0052CC solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.o-bien{
+    margin: 20px auto;
+    color: gray;
+    font-size: small;
+}
+
+.b-google, .b-microsoft, .b-apple, .b-slack{
+    width: 100%;
+    padding:12px;
+    background-color: #FFFFFF;
+    border: .5px white solid;
+    border-radius: 4px;
+    margin: 0px 0px 10px 0;
+    display: flex;
+    -webkit-box-shadow: -2px 1px 18px 4px rgba(207, 207, 207, 0.51);
+    -moz-box-shadow: -2px 1px 18px 4px rgba(207, 207, 207, 0.51);
+    box-shadow: -2px 1px 18px 4px rgba(207, 207, 207, 0.51);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.b-google span, .b-microsoft span, .b-apple span, .b-slack span{
+    margin: auto;
+    color: #42526E;
+    font-weight: bold;
+} 
+
+.other-options{
+    margin: 25px 0px;
+    color: #6B778C;
+}
+
+.other-options a{
+    color: #0065FF;
+    font-size:15px;
+    text-decoration: none;
+}
+
+hr{
+    border: .1px grey solid;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.atlassian-logo{
+    margin: 20px auto 10px auto;
+    width: 50%;
+}
+
+.footer p{
+    text-align: center;
+    font-size: small;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #0065FF;
+}
+
+.privacy{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.privacy a{
+    text-decoration: none;
+    color: #172B4D;
+}
+
+.other-img{
+    display: flex;
+    justify-content: space-between;
+}
