@@ -1,0 +1,106 @@
+body {
+  background: #fafbfd;
+  height: 100vh;
+}
+.trello-img{
+  width: 100%;
+  max-width: 150px;
+}
+
+.custom-form {
+  margin-top: 5rem !important;
+  max-width: 500px !important;
+  margin: auto;
+  border: 1px solid #00000017 !important;
+  box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.69);
+}
+
+.alert{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  #fdfae7 !important;
+}
+.alert img{
+  width: 40px;
+}
+.alert p{
+  padding: 5px;
+  padding-bottom:0 ;
+}
+.alternative-text{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #c5c5c9;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.btn-custom{
+  color:#000 !important;
+  background-color: #fff !important;
+  font-weight: bold !important;
+  border: 1px solid #00000017 !important;
+  box-shadow: 0px 0px 20px -11px rgba(0, 0, 0, 0.884);
+  cursor: pointer;
+}
+.btn-custom div {
+  display: grid;
+  grid-template-columns: 50px 300px;
+
+  padding: 5px;
+}
+
+.btn-custom img {
+  width: 30px;
+}
+.text-title{
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.text-account{
+  display: grid;
+  grid-template-columns: 200px 20px 200px;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  color:#2251c5;
+  cursor: pointer;
+}
+.atlasian {
+  text-align: center;
+}
+.atlasian img {
+  max-width: 200px;
+}
+.subtitle {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 7px;
+}
+.subtitle span {
+  color: #2251c5;
+  cursor: pointer;
+}
+.subtitle-abajo {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.right {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.right img {
+  width: 300px;
+}
+.left {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.left img {
+  width: 300px;
+}
